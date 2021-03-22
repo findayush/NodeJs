@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "task1": "node ./Module1/Task1/index.js"
+    "task1": "node ./Module1/Task1/index.js",
+    "task2": "node ./Module1/Task2/index.js",
+    "task3": "babel ./Module1/Task3/index.js -d output && node ./output/index.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +18,13 @@
   "bugs": {
     "url": "https://github.com/findayush/NodeJs/issues"
   },
-  "homepage": "https://github.com/findayush/NodeJs#readme"
+  "homepage": "https://github.com/findayush/NodeJs#readme",
+  "dependencies": {
+    "csvtojson": "^2.0.10"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.13.10",
+    "@babel/core": "^7.13.10",
+    "@babel/preset-env": "^7.13.10"
+  }
 }
