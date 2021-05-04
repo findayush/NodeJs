@@ -8,7 +8,9 @@
     "task1": "node ./Module1/Task1/index.js",
     "task2": "node ./Module1/Task2/index.js",
     "task3": "babel ./Module1/Task3/index.js -d output && node ./output/index.js",
-    "module2": "nodemon ./Module2/server.js"
+    "module2": "nodemon ./Module2/server.js",
+    "module3": "nodemon ./Module3/server.js",
+    "module4": "nodemon ./Module4/server.js"
   },
   "repository": {
     "type": "git",
@@ -37,6 +39,7 @@
     "express": "^4.17.1",
     "express-joi-validation": "^5.0.0",
     "joi": "^17.4.0",
-    "nodemon": "^2.0.7"
+    "nodemon": "^2.0.7",
+    "winston": "^3.3.3"
   }
 }
